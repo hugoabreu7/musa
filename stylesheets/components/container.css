@@ -1,5 +1,11 @@
-.container {
-  min-width: 100vh;
-  height: 100vh;
+.banner {
   text-align: center;
+  min-width: 100vw;
+  max-width: 100vw;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+.container {
+  padding: 24px;
 }
