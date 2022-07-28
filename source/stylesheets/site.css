@@ -1,0 +1,39 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Custom designs */
+@import url(components/logo.css);
+@import url(components/buttons.css);
+@import url(components/cards.css);
+@import url(components/container.css);
+@import url(components/footer.css);
+
+/* Utilities */
+body {
+  margin: 0;
+  min-width: 100vh;
+  height: 100vh;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Roboto;
+  font-size: 2.5em;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.text-center {
+  text-align: center;
+}
